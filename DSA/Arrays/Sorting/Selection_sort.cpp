@@ -1,7 +1,7 @@
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
-
+// selection sort -> for small array
 int main(){
     vector<int> arr{5,4,3,2,1};
 
@@ -20,7 +20,7 @@ int main(){
         swap(arr[minIndex],arr[i]);
     }
     for(int i=0;i<arr.size();i++){
-        cout<<arr[i]<<" ";
+        cout<<arr[i]<<" "; 
     } cout<<endl;
     return 0;
     }
